@@ -22,6 +22,38 @@ h1 {
 }
 
 .vertical {
-    border-left: 1px solid black;
-    height: 100%;      
+    border-right: 1px solid black;
+    height: 100%; 
+    margin-right: 21px;     
+}
+
+@media (min-width: 768px) {
+    header {
+        position: fixed;
+        height: 100%;
+        width: 100px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    h1 {
+        margin-top: 20px;
+        -webkit-writing-mode: vertical-lr;
+            -ms-writing-mode: tb-lr;
+                writing-mode: vertical-lr; /* orientation verticale du texte */
+                -webkit-transform: rotate(-180deg);
+                    -ms-transform: rotate(-180deg);
+                        transform: rotate(-180deg); /* inverse la direction du texte */
+    }
 }
