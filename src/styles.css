@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lora', serif; */
+
+:root {
+    --beige : #EEDFD4;
+    --brown : #C96B41;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+}
