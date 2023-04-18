@@ -18,7 +18,7 @@ export class HeaderComponent {
 
   async getData() {
     try {
-      const response = await this.serviceApi.getData().toPromise();
+      const response = await this.serviceApi.getData();
       this.data = response;
     } catch (error) {
       console.error(error);
