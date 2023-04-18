@@ -24,14 +24,12 @@ export const ARTICLES: IArticles[] = [
             endDate: new Date('2022-05-17'),
             mainImage: 'src/assets/img/albanie.png',
             secondaryImages: [
-                'src/app/assets/img/albanie.png',
-                'src/app/assets/img/albanie.png',
-                'src/app/assets/img/albanie.png',
-                'src/app/assets/img/albanie.png',
-                'src/app/assets/img/albanie.png',
-                'src/app/assets/img/albanie.png',
-                'src/app/assets/img/albanie.png',
-                'src/app/assets/img/albanie.png',
+                'src/assets/img/albanie.png',
+                'src/assets/img/albanie.png',
+                'src/assets/img/albanie.png',
+                'src/assets/img/albanie.png',
+                'src/assets/img/albanie.png',
+                
             ],
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
             positivePoints: [
@@ -61,14 +59,10 @@ export const ARTICLES: IArticles[] = [
             endDate: new Date('2022-05-17'),
             mainImage: 'src/app/assets/img/grece.png',
             secondaryImages: [
-                'src/app/assets/img/grece.png',
-                'src/app/assets/img/grece.png',
-                'src/app/assets/img/grece.png',
-                'src/app/assets/img/grece.png',
-                'src/app/assets/img/grece.png',
-                'src/app/assets/img/grece.png',
-                'src/app/assets/img/grece.png',
-                'src/app/assets/img/grece.png',
+                'src/assets/img/grece.png',
+                'src/assets/img/grece.png',
+                'src/assets/img/grece.png',
+                
             ],
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
             positivePoints: [
@@ -98,14 +92,9 @@ export const ARTICLES: IArticles[] = [
             endDate: new Date('2022-05-17'),
             mainImage: 'src/app/assets/img/guatemala.png',
             secondaryImages: [
-                'src/app/assets/img/guatemala.png',
-                'src/app/assets/img/guatemala.png',
-                'src/app/assets/img/guatemala.png',
-                'src/app/assets/img/guatemala.png',
-                'src/app/assets/img/guatemala.png',
-                'src/app/assets/img/guatemala.png',
-                'src/app/assets/img/guatemala.png',
-                'src/app/assets/img/guatemala.png',
+                'src/assets/img/guatemala.png',
+                'src/assets/img/guatemala.png',
+                'src/assets/img/guatemala.png',
             ],
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
             positivePoints: [
@@ -135,11 +124,9 @@ export const ARTICLES: IArticles[] = [
             endDate: new Date('2022-05-17'),
             mainImage: 'src/app/assets/img/tunisieTunis.png',
             secondaryImages: [
-                'src/app/assets/img/tunisieTunis.png',
-                'src/app/assets/img/tunisieTunis.png',
-                'src/app/assets/img/tunisieTunis.png',
-                'src/app/assets/img/tunisieTunis.png',
-                'src/app/assets/img/tunisieTunis.png',
+                'src/assets/img/tunisieTunis.png',
+                'src/assets/img/tunisieTunis.png',
+                'src/assets/img/tunisieTunis.png',
             ],
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
             positivePoints: [
@@ -160,7 +147,7 @@ export const ARTICLES: IArticles[] = [
             summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
             isTop: false,
         },
-        
+
         {
             id: 5,
             country: 'Tunisie',
@@ -169,9 +156,9 @@ export const ARTICLES: IArticles[] = [
             endDate: new Date('2022-05-17'),
             mainImage: 'src/app/assets/img/tunisieElJem.png',
             secondaryImages: [
-                'src/app/assets/img/tunisieElJem.png',
-                'src/app/assets/img/tunisieElJem.png',
-                'src/app/assets/img/tunisieElJem.png',
+                'src/assets/img/tunisieElJem.png',
+                'src/assets/img/tunisieElJem.png',
+                'src/assets/img/tunisieElJem.png',
             ],
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
             positivePoints: [
