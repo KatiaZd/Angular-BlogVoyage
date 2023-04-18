@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { ServiceApiService } from 'src/app/services/serviceApi';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +8,29 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  data: any;
 
+  constructor(private serviceApi: ServiceApiService) { }
+
+  ngOnInit() {
+    this.getData();
+  }
+
+  async getData() {
+    try {
+      const response = await this.serviceApi.getData().toPromise();
+      this.data = response;
+    } catch (error) {
+      console.error(error);
+    }
+  }
 }
+
+
+
+
+
+
+
+
+
