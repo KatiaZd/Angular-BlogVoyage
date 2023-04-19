@@ -22,14 +22,12 @@ export const ARTICLES: IArticles[] = [
             city: 'Tirana',
             startDate: new Date('2022-02-14'),
             endDate: new Date('2022-05-17'),
-            mainImage: 'src/assets/img/albanie.png',
+            mainImage: 'assets/img/albanie.png',
             secondaryImages: [
-                'src/assets/img/albanie.png',
-                'src/assets/img/albanie.png',
-                'src/assets/img/albanie.png',
-                'src/assets/img/albanie.png',
-                'src/assets/img/albanie.png',
-                
+                'assets/img/albanie.png',
+                'assets/img/albanie.png',
+                'assets/img/albanie.png',
+                'assets/img/albanie.png',  
             ],
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
             positivePoints: [
@@ -57,11 +55,11 @@ export const ARTICLES: IArticles[] = [
             city: 'Athènes',
             startDate: new Date('2022-04-14'),
             endDate: new Date('2022-05-17'),
-            mainImage: 'src/app/assets/img/grece.png',
+            mainImage: 'assets/img/grece.png',
             secondaryImages: [
-                'src/assets/img/grece.png',
-                'src/assets/img/grece.png',
-                'src/assets/img/grece.png',
+                'assets/img/grece.png',
+                'assets/img/grece.png',
+                'assets/img/grece.png',
                 
             ],
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
@@ -90,11 +88,11 @@ export const ARTICLES: IArticles[] = [
             city: 'Meterrico',
             startDate: new Date('2022-04-14'),
             endDate: new Date('2022-05-17'),
-            mainImage: 'src/app/assets/img/guatemala.png',
+            mainImage: 'assets/img/guatemala.png',
             secondaryImages: [
-                'src/assets/img/guatemala.png',
-                'src/assets/img/guatemala.png',
-                'src/assets/img/guatemala.png',
+                'assets/img/guatemala.png',
+                'assets/img/guatemala.png',
+                'assets/img/guatemala.png',
             ],
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
             positivePoints: [
@@ -122,11 +120,11 @@ export const ARTICLES: IArticles[] = [
             city: 'Tunis',
             startDate: new Date('2022-04-14'),
             endDate: new Date('2022-05-17'),
-            mainImage: 'src/app/assets/img/tunisieTunis.png',
+            mainImage: 'assets/img/tunisieTunis.png',
             secondaryImages: [
-                'src/assets/img/tunisieTunis.png',
-                'src/assets/img/tunisieTunis.png',
-                'src/assets/img/tunisieTunis.png',
+                'assets/img/tunisieTunis.png',
+                'assets/img/tunisieTunis.png',
+                'assets/img/tunisieTunis.png',
             ],
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
             positivePoints: [
@@ -154,11 +152,11 @@ export const ARTICLES: IArticles[] = [
             city: 'El Jem',
             startDate: new Date('2022-04-14'),
             endDate: new Date('2022-05-17'),
-            mainImage: 'src/app/assets/img/tunisieElJem.png',
+            mainImage: 'assets/img/tunisieElJem.png',
             secondaryImages: [
-                'src/assets/img/tunisieElJem.png',
-                'src/assets/img/tunisieElJem.png',
-                'src/assets/img/tunisieElJem.png',
+                'assets/img/tunisieElJem.png',
+                'assets/img/tunisieElJem.png',
+                'assets/img/tunisieElJem.png',
             ],
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
             positivePoints: [

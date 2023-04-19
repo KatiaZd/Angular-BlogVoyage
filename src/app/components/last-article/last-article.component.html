@@ -1,0 +1,7 @@
+<div *ngFor="let image of lastArticle">
+    <img src ="{{image.mainImage}}" alt="Paysage">
+    <div>
+        <p>{{image.country}}</p>
+        <p>{{image.startDate | date:'dd.MM.yy'}} - {{image.endDate | date:'dd.MM.yy'}}</p>
+    </div>
+</div>

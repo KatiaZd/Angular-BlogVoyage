@@ -9,6 +9,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ArticlesPageComponent } from './pages/articles-page/articles-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BackButtonComponent } from './components/back-button/back-button.component';
+import { LastArticleComponent } from './components/last-article/last-article.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { BackButtonComponent } from './components/back-button/back-button.compon
     FooterComponent,
     HomePageComponent,
     ArticlesPageComponent,
-    BackButtonComponent
+    BackButtonComponent,
+    LastArticleComponent
 
   ],
   imports: [
