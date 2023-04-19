@@ -14,10 +14,14 @@ export class LastArticleComponent {
   constructor(private router: ActivatedRoute) {}
 
     ngOnInit() {
+      // Je récupère l'id de l'article
       const id = this.router.snapshot.paramMap.get('id');
+
+      // Je filtre mon tableau d'articles pour récupérer l'article qui correspond à l'id
       this.lastArticle = ARTICLES.filter( articles => articles.id === Number(id));
+
+      // Je filtre mon tableau d'articles pour récupérer les articles qui sont en top
       this.lastArticle = ARTICLES.filter(articles => articles.isTop);   
   }
-
 
 }
