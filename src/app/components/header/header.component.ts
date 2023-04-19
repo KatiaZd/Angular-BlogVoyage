@@ -1,29 +1,26 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { ServiceApiService } from 'src/app/services/serviceApi';
+import { ServiceApiService, Weather } from 'src/app/services/serviceApi';
+
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent {
-  data: any;
+export class HeaderComponent implements OnInit {
+  data?: Weather;
 
   constructor(private serviceApi: ServiceApiService) { }
 
   ngOnInit() {
-    this.getData();
+    this.serviceApi.getData().subscribe((data) => {
+      this.data = data;
+      console.log(this.data);
+    });
   }
 
-  async getData() {
-    try {
-      const response = await this.serviceApi.getData();
-      this.data = response;
-    } catch (error) {
-      console.error(error);
-    }
-  }
+
 }
 
 
