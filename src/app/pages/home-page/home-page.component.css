@@ -1,4 +1,9 @@
 body {
-    height: 100vh;
-    margin-left: 100px;
+    /* height: 100vh; */
+}
+
+@media (min-width: 768px) {
+    body {
+        margin-left: 100px;
+    }
 }
