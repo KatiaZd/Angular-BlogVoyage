@@ -5,7 +5,7 @@ import { ArticlesPageComponent } from './pages/articles-page/articles-page.compo
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
-  { path: 'articles', component: ArticlesPageComponent }, 
+  { path: 'articles\:id', component: ArticlesPageComponent }, 
 
 ];
 

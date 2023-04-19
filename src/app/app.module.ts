@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BackButtonComponent } from './components/back-button/back-button.component';
 import { LastArticleComponent } from './components/last-article/last-article.component';
 import { OtherArticleComponent } from './components/other-article/other-article.component';
+import { ImgArticleComponent } from './components/img-article/img-article.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { OtherArticleComponent } from './components/other-article/other-article.
     ArticlesPageComponent,
     BackButtonComponent,
     LastArticleComponent,
-    OtherArticleComponent
+    OtherArticleComponent,
+    ImgArticleComponent
 
   ],
   imports: [
