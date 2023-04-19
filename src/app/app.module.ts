@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ArticlesPageComponent } from './pages/articles-page/articles-page.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BackButtonComponent } from './components/back-button/back-button.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     FooterComponent,
     HomePageComponent,
-    ArticlesPageComponent
+    ArticlesPageComponent,
+    BackButtonComponent
 
   ],
   imports: [

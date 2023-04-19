@@ -1,0 +1,21 @@
+button {
+    border: none;
+    margin-left: 100px;
+}
+
+img {
+    padding: 30px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-color: var(--brown);
+    
+}
+
+@media (min-width: 768px) {
+    
+    img {
+        padding: 60px;
+        
+    }
+    
+}
