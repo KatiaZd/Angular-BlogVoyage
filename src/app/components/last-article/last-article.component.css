@@ -4,6 +4,50 @@ img {
     margin: 114px 20px 76px 20px;
 }
 
+.countryDate {
+    /* color: white; */
+    /* position: relative; */
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 20px;
+    top: 394px;
+    background: rgba(201, 107, 65, 0.7);
+    color: white;
+    grid-template-columns: 10fr 1fr 1fr;
+    grid-gap: 1px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: grid;
+    
+    padding-left: 16px;
+    
+}
+
+.lora {
+    font-family: 'Lora', serif;
+    font-size: 15px;
+   
+}
+
+.date {
+    width: 125px;
+    margin-right: 15px;
+} 
+
+.separator {
+    height: 100%; /* prendre toute la hauteur de la div */
+    width: 1px; /* largeur de la barre de séparation */
+    background-color: white; /* couleur de la barre de séparation */
+  }
+
+/* .background {
+ top: -136px;
+    left: 36px;
+    
+} */
+
 
 
 @media (min-width: 768px) {
