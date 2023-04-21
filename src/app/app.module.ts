@@ -12,6 +12,9 @@ import { BackButtonComponent } from './components/back-button/back-button.compon
 import { LastArticleComponent } from './components/last-article/last-article.component';
 import { OtherArticleComponent } from './components/other-article/other-article.component';
 import { ImgArticleComponent } from './components/img-article/img-article.component';
+import { ResumArticleComponent } from './components/resum-article/resum-article.component';
+import { AvisArticleComponent } from './components/avis-article/avis-article.component';
+import { QuadriImgArticleComponent } from './components/quadri-img-article/quadri-img-article.component';
 
 
 @NgModule({
@@ -24,7 +27,10 @@ import { ImgArticleComponent } from './components/img-article/img-article.compon
     BackButtonComponent,
     LastArticleComponent,
     OtherArticleComponent,
-    ImgArticleComponent
+    ImgArticleComponent,
+    ResumArticleComponent,
+    AvisArticleComponent,
+    QuadriImgArticleComponent
 
   ],
   imports: [
