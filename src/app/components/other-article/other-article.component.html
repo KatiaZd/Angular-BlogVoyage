@@ -1,5 +1,6 @@
-<a routerLink="articles">
+
     <div *ngFor="let image of otherArticle">
+        <a routerLink="/articles/{{image.id}}">
         <img src="{{ image.mainImage }}" alt="Paysage" />
         <div>
             <p>{{ image.country }}</p>
@@ -8,5 +9,6 @@
                 {{ image.endDate | date : "dd.MM.yy" }}
             </p>
         </div>
+    </a>
     </div>
-</a>
+

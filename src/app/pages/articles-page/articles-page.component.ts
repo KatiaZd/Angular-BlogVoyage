@@ -36,9 +36,8 @@ export class ArticlesPageComponent {
     getArticleId(): void {
       // Récupération de l'ID de l'article
       const id = Number(this.activatedRoute.snapshot.paramMap.get('id'));
-  
       // Récupération de l'article par son ID
-      this.articleInfo = this.Articles.find(article => article.id === id);
+     // this.articleInfo = this.Articles.find(article => article.id === id);
 
       // Récupération de l'objet du mock ARTICLES dont l'id est similaire à celui de l'url
       const displayedArticleInfo = this.Articles.find((article: IArticles) => article.id === id);

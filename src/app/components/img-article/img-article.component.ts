@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { ARTICLES, IArticles } from 'src/app/mocks/articles.mock';
+import { Component, Input } from '@angular/core';
+
 
 @Component({
   selector: 'app-img-article',
@@ -9,13 +8,12 @@ import { ARTICLES, IArticles } from 'src/app/mocks/articles.mock';
 })
 export class ImgArticleComponent {
 
-  imgArticle: IArticles [] = [];
+// Import des données que j'ai besoin depuis le parent (page Article)
 
-  constructor(private router: ActivatedRoute) { }
-
-  ngOnInit() {
-    const id = this.router.snapshot.paramMap.get('id');
-    this.imgArticle = ARTICLES.filter(articles => articles.id === Number(id));
-  }
+  @Input() dataCountry!: string;
+  @Input() dataCity!: string;
+  @Input() dataStartDate!: Date;
+  @Input() dataEndDate!: Date;
+  @Input() dataMainImage!: string;
 
 }

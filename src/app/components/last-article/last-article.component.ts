@@ -9,19 +9,27 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class LastArticleComponent {
 
-  lastArticle: IArticles[] = [];
+  // Je filtre mon tableau d'articles pour récupérer les articles qui sont en top
+  
+  
 
-  constructor(private router: ActivatedRoute) {}
+   lastArticle = ARTICLES.filter((articles: IArticles) => articles.isTop === true);
+   
+
+  // constructor(private router: ActivatedRoute) {}
 
     ngOnInit() {
-      // Je récupère l'id de l'article
-      const id = this.router.snapshot.paramMap.get('id');
+  //     // Je récupère l'id de l'article
 
-      // Je filtre mon tableau d'articles pour récupérer l'article qui correspond à l'id
-      this.lastArticle = ARTICLES.filter( articles => articles.id === Number(id));
+  //     const id = this.router.snapshot.paramMap.get('id');
 
-      // Je filtre mon tableau d'articles pour récupérer les articles qui sont en top
-      this.lastArticle = ARTICLES.filter(articles => articles.isTop);   
-  }
+  //     // Je filtre mon tableau d'articles pour récupérer l'article qui correspond à l'id
+
+     
+
+  console.log('bonjour');
+
+  //     console.log(this.lastArticle);
+   }
 
 }

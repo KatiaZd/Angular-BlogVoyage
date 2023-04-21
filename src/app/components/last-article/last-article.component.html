@@ -1,13 +1,19 @@
-<a routerLink="articles">
-  <div *ngFor="let image of lastArticle">
-    <img src="{{ image.mainImage }}" alt="Paysage" />
+
+  
+ 
+    <div *ngFor="let article of lastArticle">
+      <a routerLink="/articles/{{article.id}}">
+  
+    <img src="{{ article.mainImage }}" alt="Paysage" />
     <div class="countryDate">
-      <p class="background lora">{{ image.country }} - {{ image.city}}</p>
+     <p class="background lora">{{ article.country }} - {{ article.city}}</p>
       <div class="separator"></div>
       <p class="background date">
-        {{ image.startDate | date : "dd.MM.yy" }} -
-        {{ image.endDate | date : "dd.MM.yy" }}
+        {{ article.startDate | date : "dd.MM.yy" }} -
+        {{ article.endDate | date : "dd.MM.yy" }}
       </p>
     </div>
+  </a>
   </div>
-</a>
+
+
