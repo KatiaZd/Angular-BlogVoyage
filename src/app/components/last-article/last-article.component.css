@@ -20,7 +20,6 @@ img {
         -ms-flex-align: center;
             align-items: center;
     display: grid;
-    
     padding-left: 16px;
     
 }
@@ -40,11 +39,7 @@ img {
     height: 100%; /* prendre toute la hauteur de la div */
     width: 1px; /* largeur de la barre de séparation */
     background-color: white; /* couleur de la barre de séparation */
-  }
-
-
-
-
+}
 
 @media (min-width: 768px) {
 
@@ -54,15 +49,11 @@ img {
         -o-object-fit: cover;
            object-fit: cover;
         margin-left: 165px;
-        
     }
 
     .countryDate {
         left: 265px;
         top: 730px;
-        width: 70vw;
-        
+        width: 70vw;   
     }
-
-   
 }

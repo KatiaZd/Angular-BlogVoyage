@@ -1,14 +1,20 @@
+<h1 class="lora">Autres voyages</h1>
 
-    <div *ngFor="let image of otherArticle">
-        <a routerLink="/articles/{{image.id}}">
-        <img src="{{ image.mainImage }}" alt="Paysage" />
+<div class="container">
+  <div *ngFor="let image of otherArticle">
+    <a routerLink="/articles/{{ image.id }}">
+      <img src="{{ image.mainImage }}" alt="Paysages" />
+      <div class="containerBackground">
         <div>
-            <p>{{ image.country }}</p>
-            <p>
-                {{ image.startDate | date : "dd.MM.yy" }} -
-                {{ image.endDate | date : "dd.MM.yy" }}
-            </p>
+            <p class="country lora">{{ image.country }}</p>
+            <p> {{ image.city }} </p>
         </div>
+        <div class="separator"></div>
+        <p>
+          {{ image.startDate | date : "dd.MM.yy" }} au
+          {{ image.endDate | date : "dd.MM.yy" }}
+        </p>
+      </div>
     </a>
-    </div>
-
+  </div>
+</div>
