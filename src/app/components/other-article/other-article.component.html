@@ -10,10 +10,17 @@
             <p> {{ image.city }} </p>
         </div>
         <div class="separator"></div>
-        <p class="date">
+
+        <div class="date">
+            <p>Du {{ image.startDate | date : "dd.MM.yy" }} au</p>
+            <p>{{ image.endDate | date : "dd.MM.yy" }}</p>
+        </div>
+
+        <!-- <p class="date">
           Du {{ image.startDate | date : "dd.MM.yy" }} au
           {{ image.endDate | date : "dd.MM.yy" }}
-        </p>
+        </p> -->
+
       </div>
     </a>
   </div>
