@@ -42,11 +42,7 @@ img {
     background-color: white; /* couleur de la barre de séparation */
   }
 
-/* .background {
- top: -136px;
-    left: 36px;
-    
-} */
+
 
 
 
@@ -54,9 +50,19 @@ img {
 
     img {
         height: 686px;
-        width: 60vw;
+        width: 70vw;
         -o-object-fit: cover;
            object-fit: cover;
+        margin-left: 165px;
         
     }
+
+    .countryDate {
+        left: 265px;
+        top: 730px;
+        width: 70vw;
+        
+    }
+
+   
 }
