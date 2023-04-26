@@ -77,6 +77,23 @@ img {
 
     .containerBackground {
         margin-bottom: 31px;
+        display: grid;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        grid-template-columns: 3fr 1px 1fr;
+        padding: 0 34px;
+    }
+
+    .separator {
+        border: 1px solid white;
+        height: 100%;
+        
+    }
+
+    .date {
+        margin-left: 34px;
+        
     }
     
 }
