@@ -85,7 +85,7 @@ export const ARTICLES: IArticles[] = [
         {
             id: 3,
             country: 'Guatemala',
-            city: 'Meterrico',
+            city: 'Monterrico',
             startDate: new Date('2022-04-14'),
             endDate: new Date('2022-05-17'),
             mainImage: 'assets/img/guatemala.png',
