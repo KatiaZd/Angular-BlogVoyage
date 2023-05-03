@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-resum-article',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./resum-article.component.css']
 })
 export class ResumArticleComponent {
+
+  @Input() resumText!: string;
 
 }
