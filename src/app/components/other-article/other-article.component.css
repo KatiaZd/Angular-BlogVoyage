@@ -47,6 +47,19 @@ img {
             align-items: center;
 }
 
+.containerCountry {
+    margin-left: 24px;
+}
+
+.date {
+    margin-left: 22px;
+}
+
+.alignDate {
+    margin-left: 5px;
+}
+
+
 .country {
     font-size: 20px;
 }
@@ -94,8 +107,11 @@ img {
         margin-left: 34px;
     }
 
-    .alignDate {
-        margin-left: 5px;
+    .containerCountry {
+        margin-left: 0px;
     }
+
+
+   
     
 }
