@@ -40,6 +40,11 @@ img {
     margin-top: -4px;
     margin-bottom: 44px;
     height: 75px;
+    display: grid;
+    grid-template-columns: 3fr 1px 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .country {
@@ -48,6 +53,7 @@ img {
 
 .separator {
     border: 1px solid white;
+    height: 100%;
 }
 
 
@@ -71,23 +77,25 @@ img {
 
     .containerBackground {
         margin-bottom: 31px;
-        display: grid;
+        /* display: grid;
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        grid-template-columns: 3fr 1px 1fr;
+        grid-template-columns: 3fr 1px 1fr; */
         padding: 0 34px;
     }
 
-    .separator {
+    /* .separator {
         border: 1px solid white;
-        height: 100%;
-        
-    }
+        height: 100%; 
+    } */
 
     .date {
         margin-left: 34px;
-        
+    }
+
+    .alignDate {
+        margin-left: 5px;
     }
     
 }
