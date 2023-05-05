@@ -152,11 +152,10 @@ export const ARTICLES: IArticles[] = [
                 " Il reste encore des zones à risque et des menaces terroristes qui peuvent survenir à tout moment, ce qui nécessite une certaine vigilance et une attention particulière",
             ],
             tips: [
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl aliquam nisl, eget aliquam nisl',
+                "Prenez une paire de tong !",
+                
             ],
-            summary: 'Si vous voyagez en Tunisie, assurez-vous de goûter aux délicieuses spécialités culinaires locales et de vous immerger dans la culture riche et diversifiée du pays.l',
+            summary: 'Si vous voyagez en Tunisie, assurez-vous de goûter aux délicieuses spécialités culinaires locales et de vous immerger dans la culture riche et diversifiée du pays.',
             isTop: false,
         },
 

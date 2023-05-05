@@ -1,3 +1,23 @@
+.container {
+    border: 2px solid blue;
+    margin: 114px 0 76px 0;
+    padding: 0 21px 0 19px;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: clamp(24px, 5vw, 60px);
+    font-weight: 400;
+}
+
+p {
+    font-size: clamp(14px, 1vw, 16px);
+    margin-bottom: 33px;
+}
+
 img {
     height: 350px;
+    width: 100%;
+    
 }
+
