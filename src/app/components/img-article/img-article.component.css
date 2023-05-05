@@ -6,7 +6,7 @@
 
 h2 {
     font-family: 'Lora', serif;
-    font-size: clamp(24px, 5vw, 60px);
+    font-size: clamp(26px, 5vw, 60px);
     font-weight: 400;
 }
 
