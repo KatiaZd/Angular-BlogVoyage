@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class AvisArticleComponent {
 
-  @Input() positivePoints!: string;
+  @Input() positivePoints: string[] = [];
+  @Input() negativePoints: string[] = [];
 
 }
