@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class ResumArticleComponent {
 
-  @Input() resumText!: string;
+  @Input() title!: string;
+  @Input() text!: string;
 
 }

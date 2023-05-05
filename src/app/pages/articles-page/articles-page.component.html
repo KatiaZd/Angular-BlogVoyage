@@ -11,7 +11,7 @@
     ></app-img-article>
 
     <app-resum-article
-        [resumText]="articleInfo!.text"
+        [title]="'Le voyage'" [text]="articleInfo!.text"
     ></app-resum-article>
 
      <app-avis-article
@@ -19,6 +19,10 @@
         [negativePoints]="articleInfo!.negativePoints"
         [tips]="articleInfo!.tips"
     ></app-avis-article>
+
+    <app-resum-article
+        [title]="'En résumé'" [text]="articleInfo!.summary"
+    ></app-resum-article>
 
     <app-quadri-img-article
     [gallery]="articleInfo!.secondaryImages"
