@@ -9,5 +9,6 @@ export class AvisArticleComponent {
 
   @Input() positivePoints: string[] = [];
   @Input() negativePoints: string[] = [];
+  @Input() tips: string[] = [];
 
 }
