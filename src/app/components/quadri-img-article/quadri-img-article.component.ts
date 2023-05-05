@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-quadri-img-article',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./quadri-img-article.component.css']
 })
 export class QuadriImgArticleComponent {
+
+  @Input() gallery: string[] = [];
 
 }
