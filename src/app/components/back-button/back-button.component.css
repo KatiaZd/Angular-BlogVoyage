@@ -1,6 +1,10 @@
 button {
     border: none;
-    margin-left: 100px;
+    height: 74px;
+    width: 74px;
+    position: fixed;
+    top: 70px;
+    right: 10px;
 }
 
 img {
