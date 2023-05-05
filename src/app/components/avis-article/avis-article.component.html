@@ -1,16 +1,20 @@
 <section>
 
     <h3>Notre avis</h3>
-    <h4>Les plus</h4>
-    <p> {{positivePoints}} </p>
 
-    <h4>Les moins</h4>
-    <p> {{negativePoints}} </p>
+    <h4 *ngIf="positivePoints.length > 0">Les plus</h4>
+        <ul *ngFor="let item of positivePoints">
+            <li> {{item}} </li>
+        </ul>
 
-    <h4>Mon conseil</h4>
-    <p> {{tips}} </p>
+    <h4 *ngIf="negativePoints.length > 0">Les moins</h4>
+        <ul *ngFor="let item of negativePoints">
+            <li> {{item}} </li>
+        </ul>
 
-
-
+    <h4 *ngIf="tips.length > 0">Mon conseil</h4>
+        <ul *ngFor="let item of tips">
+            <li> {{item}} </li>
+        </ul>
 
 </section>
