@@ -1,0 +1,15 @@
+section {
+    padding: 0 21px 0 19px;
+    border: 1px solid green;
+    margin-bottom: 86px;
+}
+
+li {
+    line-height: 24.2px;
+    font-size: 20px;
+    margin-left: 19px;
+}
+
+.margin {
+    margin-top: 65px;
+}

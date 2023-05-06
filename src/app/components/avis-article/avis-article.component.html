@@ -7,12 +7,12 @@
             <li> {{item}} </li>
         </ul>
 
-    <h4 *ngIf="negativePoints.length > 0">Les moins</h4>
+    <h4 class="margin" *ngIf="negativePoints.length > 0">Les moins</h4>
         <ul *ngFor="let item of negativePoints">
             <li> {{item}} </li>
         </ul>
 
-    <h4 *ngIf="tips.length > 0">Mon conseil</h4>
+    <h4 class="margin" *ngIf="tips.length > 0">Mon conseil</h4>
         <ul *ngFor="let item of tips">
             <li> {{item}} </li>
         </ul>

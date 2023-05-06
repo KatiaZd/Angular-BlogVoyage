@@ -14,11 +14,19 @@ font-family: 'Lora', serif; */
             font-family: 'Inter', sans-serif;
 }
 
-h3 {
-    font-family: 'Lora', serif; 
+h2, h3, h4 {
+    font-family: 'Lora', serif;
     font-weight: 400;
-    font-size: clamp(28px, 5vw, 60px);
+}
+
+h3 {
+    font-size: clamp(28px, 4vw, 60px);
     margin-bottom: 35px;
+}
+
+h4 {
+    font-size: 24px;
+    margin-bottom: 33px;
 }
 
 
