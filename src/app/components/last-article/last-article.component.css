@@ -70,13 +70,13 @@ img {
         font-size: 30px;
     }
 
+    .separator{
+        margin-left: 35px;;
+    }
+
     .date {
         font-size: 16px;
         width: 179px;
         padding-right: 38px;
-    }
-
-    .separator{
-        margin-left: 35px;;
     }
 }
