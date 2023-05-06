@@ -44,18 +44,24 @@ img {
 } 
 
 @media (min-width: 768px) {
+    section {
+        padding: 0 332px 0 0;
+        border: 1px solid red;
+    }
 
     img {
         height: 686px;
-        width: 70vw;
+        width: 100%;
         -o-object-fit: cover;
            object-fit: cover;
         margin-left: 165px;
+        margin-right: 175px;
     }
 
     .countryDate {
-        left: 265px;
-        top: 730px;
-        width: 70vw;   
+        left: 265.5px;
+        top: 731px;
+        max-width: 100%;
+        margin-right: 168px;   
     }
 }
