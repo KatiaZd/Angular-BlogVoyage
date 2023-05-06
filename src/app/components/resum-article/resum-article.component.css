@@ -21,5 +21,6 @@ p {
     font-size: 18px;
     line-height: 21.78px;
     padding: 23px 21px;
+    white-space: pre-wrap;
     
 }
