@@ -1,22 +1,21 @@
 /* GENERAL */
-
 * {
-    font-weight: 400;
     text-decoration: none;
 }
 
-h1 {
-    margin: 76px 158px 35px 22px;
-    font-size: clamp(30px, 5vw, 60px);
-}
-
-.lora {
-    font-family: 'Lora', serif;
+section {
+    border: 2px solid blueviolet;
+    padding: 76px 20px 0 20px;
 }
 
 p {
     color: white;
 }
+
+h2 {
+    margin-bottom: 35px;
+} 
+
 
 img {
     height: 283.88px;
@@ -31,10 +30,10 @@ img {
 
 .container {
     width: 100%;
-    margin: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: grid;
+    border: 2px solid orange;
 }
 
 /* DIV CONTAINERBACKGROUND */
@@ -43,7 +42,7 @@ img {
     background-color: var(--brown);
     margin-top: -4px;
     margin-bottom: 44px;
-    height: 75px;
+    height: 74.12px;
     display: grid;
     grid-template-columns: 3fr 1px 1fr;
     -webkit-box-align: center;
@@ -55,9 +54,11 @@ img {
 
 .containerCountry {
     margin-left: 24px;
+    border: 2px solid black;
 }
 
 .country {
+    font-family: 'Lora', serif;
     font-size: 20px;
 }
 
@@ -71,7 +72,8 @@ img {
 /* DIV DATE */
 
 .date {
-    margin-left: 22px;
+    margin-left: 21.6px;
+    margin-right: 16px;
 }
 
 .alignDate {
@@ -80,8 +82,9 @@ img {
 
 @media (min-width: 768px) {
 
-    h1 {
+    h2 {
         margin-left: 157px;
+        margin: 209px 0 44px 143px;
     }
    
     .container {
