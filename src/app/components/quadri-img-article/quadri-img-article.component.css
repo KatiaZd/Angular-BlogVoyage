@@ -1,5 +1,5 @@
 section {
-    padding: 0 21px 0 19px;
+    padding: 0 21px 61px 19px;
     border: 1px solid rgb(227, 85, 109);
 }
 
@@ -7,5 +7,6 @@ section {
 img {
     height: 351px;
     width: 100%;
+    margin-bottom: 19px;
     
 }
