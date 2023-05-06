@@ -1,19 +1,19 @@
-
+<section>
   
- 
-    <div *ngFor="let article of lastArticle">
-      <a routerLink="/articles/{{article.id}}">
+<div *ngFor="let article of lastArticle">
+  <a routerLink="/articles/{{article.id}}">
   
     <img src="{{ article.mainImage }}" alt="Paysage" />
-    <div class="countryDate">
-     <p class="background lora">{{ article.country }} - {{ article.city}}</p>
-      <div class="separator"></div>
-      <p class="background date">
-        {{ article.startDate | date : "dd.MM.yy" }} ·
-        {{ article.endDate | date : "dd.MM.yy" }}
-      </p>
-    </div>
+      <div class="countryDate">
+        <p class="background lora">{{ article.country }} - {{ article.city}}</p>
+        <div class="separator"></div>
+        <p class="background date">
+          {{ article.startDate | date : "dd.MM.yy" }} ·
+          {{ article.endDate | date : "dd.MM.yy" }}
+        </p>
+      </div>
   </a>
-  </div>
+</div>
 
+</section>
 
