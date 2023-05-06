@@ -3,17 +3,13 @@ section {
     border: 1px solid rgb(227, 85, 109);
 }
 
-
 img {
     height: 350px;
     width: 100%;
-    /* margin: 114px 20px 76px 20px; */
     margin-top: 114px;
 }
 
 .countryDate {
-    /* color: white; */
-    /* position: relative; */
     position: absolute;
     max-width: 100%;
     height: 70px;
@@ -29,27 +25,23 @@ img {
     display: grid;
     padding-left: 16px;
     margin-right: 21px;
-    
-   
-    
 }
 
 .lora {
     font-family: 'Lora', serif;
     font-size: 15px;
-   
 }
-
-.date {
-    width: 125px;
-    margin-right: 15px;
-} 
 
 .separator {
     height: 100%; /* prendre toute la hauteur de la div */
     width: 1px; /* largeur de la barre de séparation */
     background-color: white; /* couleur de la barre de séparation */
 }
+
+.date {
+    width: 125px;
+    margin-right: 15px;
+} 
 
 @media (min-width: 768px) {
 
