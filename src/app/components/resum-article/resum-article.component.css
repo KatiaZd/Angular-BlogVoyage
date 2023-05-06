@@ -5,13 +5,14 @@ section {
     
 }
 
-
 h3 {
     font-family: 'Lora', serif; 
     font-weight: 400;
     font-size: clamp(28px, 5vw, 60px);
     margin-bottom: 35px;
 }
+
+
 
 p {
     background-color: var(--brown);
