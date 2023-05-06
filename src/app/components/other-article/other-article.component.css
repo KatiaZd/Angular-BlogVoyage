@@ -72,8 +72,8 @@ img {
 /* DIV DATE */
 
 .date {
-    margin-left: 21.6px;
-    margin-right: 16px;
+    padding-left: 9px;
+    padding-right: 16px;
 }
 
 .alignDate {
@@ -84,7 +84,7 @@ img {
 
     h2 {
         margin-left: 157px;
-        margin: 209px 0 44px 143px;
+        margin: 133px 0 44px 151px;
     }
    
     .container {
@@ -107,6 +107,7 @@ img {
     }
 
     .date {
-        margin-left: 34px;
+        margin-left: 5px;
+        
     }
 }
