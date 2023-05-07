@@ -3,6 +3,8 @@
 Une photographe et globe trotteuse souhaite un blog pour pouvoir partager ses photos et astuces de voyage.
 
 ## Brief créatif :art:
+
+### Contenu des pages :arrow_down:
 Header : <br>
 
 - Sur mobile : fixé en haut de l'écran <br>
