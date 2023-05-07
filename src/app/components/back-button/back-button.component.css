@@ -18,9 +18,15 @@ img {
 
 @media (min-width: 768px) {
     
+    button {
+        padding: 60px 85px 85px 60px;
+        top: 79.4vh;
+        right: 1px;
+    }
+
     img {
-        padding: 60px;
-        
+        height: 30px;
+        width: 30px;
     }
     
 }
