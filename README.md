@@ -5,20 +5,20 @@ Une photographe et globe trotteuse souhaite un blog pour pouvoir partager ses ph
 ## Brief créatif :art:
 
 ### Contenu des pages :arrow_down:
-Header : <br>
+Header :
 
 - Sur mobile : fixé en haut de l'écran, <br>
 - Sur desktop : fixé à 180° à gauche de l'écran. <br>
 Dans les deux cas, la largeur de la zone où se trouve la température doit être adapté à la taille du nom de la ville.
 
 
-#### Home page : <br>
+#### Home page : 
 
 - Le dernier article doit être affiché en haut de la page afin d'être mise en valeur, <br>
-- En cliquant sur l'image, l'utilisateur est redirigé vers la page article. <br><br>
+- En cliquant sur l'image, l'utilisateur est redirigé vers la page article. 
 
 
-#### Page article : <br>
+#### Page article : 
 
 Un bouton retour est visible pour pouvoir revenir en arrière, sur la page home. <br>
 - Sur mobile : fixé en haut à gauche, <br>
