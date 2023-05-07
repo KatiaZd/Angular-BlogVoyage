@@ -26,7 +26,9 @@ export const ARTICLES: IArticles[] = [
             secondaryImages: [
                 'assets/img/albanie/albanie1.jpg',
                 'assets/img/albanie/albanie2.jpg',
-                'assets/img/albanie/albanie3.jpg',
+                'assets/img/albanie/albanieNew.jpg',
+                'assets/img/albanie/albanieNew2.jpg',
+                
             ],
             text: "L'Albanie est un pays magnifique avec une riche histoire, des plages de sable fin et des montagnes majestueuses. \n\n Si vous cherchez à explorer un endroit encore peu connu, alors l'Albanie est la destination parfaite pour vous. \n Lors de votre voyage en Albanie, vous pourrez explorer la ville animée de Tirana, avec ses bâtiments colorés et sa vie nocturne dynamique. Vous pourrez également visiter les villes historiques de Berat et Gjirokastra, toutes deux inscrites au patrimoine mondial de l'UNESCO pour leur architecture unique et leur histoire fascinante. \n Les plages de la côte albanaise sont également incontournables, avec leurs eaux cristallines et leurs paysages à couper le souffle. Les plages les plus célèbres incluent celle de Saranda et celle de Dhermi, où vous pourrez vous détendre sur le sable chaud et profiter du soleil. \n\n Mais l'Albanie ne se limite pas aux villes et aux plages, vous pourrez également explorer les montagnes des Alpes albanaises, avec des vues imprenables sur la nature et des sentiers de randonnée inoubliables. Le parc national de Theth est un endroit idéal pour les randonneurs expérimentés, avec des cascades spectaculaires et des vues panoramiques à couper le souffle. \n\n En bref, un voyage en Albanie est une expérience unique et inoubliable qui vous permettra de découvrir un pays authentique et encore peu exploité par les touristes. ",
             positivePoints: [
@@ -51,14 +53,13 @@ export const ARTICLES: IArticles[] = [
             city: 'Athènes',
             startDate: new Date('2022-04-14'),
             endDate: new Date('2022-05-17'),
-            mainImage: 'assets/img/grece/grece1.jpg',
+            mainImage: 'assets/img/grece/grece.png',
             secondaryImages: [
+                'assets/img/grece/grece1.jpg',
                 'assets/img/grece/grece2.jpg',
                 'assets/img/grece/grece3.jpg',
                 'assets/img/grece/grece4.jpg',
                 'assets/img/grece/grece5.jpg',
-                'assets/img/grece/grece.png',
-                
             ],
             text: "La Grèce est un pays magnifique qui offre une expérience de voyage incomparable. \n\n Avec son histoire riche et sa culture vibrante, elle est une destination populaire pour les voyageurs du monde entier. \n Lors de votre voyage en Grèce, vous pourrez explorer la ville animée d'Athènes, la capitale du pays, avec ses célèbres sites historiques comme l'Acropole et le Panthénon. Vous pourrez également visiter les îles grecques, avec leurs plages de sable blanc, leurs eaux cristallines et leurs villages pittoresques. Les îles grecques les plus célèbres incluent Santorin, Mykonos, Rhodes et Corfou, chacune avec sa propre ambiance et ses sites à découvrir. Vous pourrez vous détendre sur les plages, déguster des spécialités locales dans les tavernes et explorer les rues pavées des villages traditionnels. \n\n En dehors des villes et des îles, la Grèce offre également une beauté naturelle à couper le souffle. Les montagnes du Péloponnèse, les gorges de Samarie en Crète et les formations rocheuses de Meteora sont autant d'exemples de la nature sauvage et magnifique de la Grèce. \n\n En bref, un voyage en Grèce est une expérience inoubliable qui vous permettra de découvrir une culture riche, une beauté naturelle spectaculaire et des plages à couper le souffle.",
             positivePoints: [
@@ -85,25 +86,20 @@ export const ARTICLES: IArticles[] = [
             mainImage: 'assets/img/algerie/biskra.jpg',
             secondaryImages: [
                 'assets/img/algerie/alger2.jpg',
-                'assets/img/algerie/alger4.jpg',
                 'assets/img/algerie/bejaia.jpg',
-                'assets/img/algerie/capCarbon.jpg',
                 'assets/img/algerie/annaba.jpg',
                 'assets/img/algerie/casbah.jpg',
-                'assets/img/algerie/timgad.jpg',
-                'assets/img/algerie/vendeur.jpg',
                 'assets/img/algerie/kabylie.jpg',
-                'assets/img/algerie/kabylie1.jpg',
-                'assets/img/algerie/kabylie2.jpg',
-                'assets/img/algerie/kabylie3.jpg',
                 'assets/img/algerie/oran.jpg',
-                'assets/img/algerie/sahara1.jpg',
+                'assets/img/algerie/timgad.jpg',
                 'assets/img/algerie/sahara2.jpg',
                 'assets/img/algerie/sahara3.jpg',
+                'assets/img/algerie/sahara1.jpg',
+                'assets/img/algerie/vendeur.jpg',
                 'assets/img/algerie/alger3.jpg',
                 
             ],
-            text: "Qui devinerait qu'en Algérie des sites antiques romains d'une extrême beauté se dévoilent aux visiteurs, ici en Kabylie, là dans les Aurès ou l'Algérois ? Qui soupçonnerait que de magnifiques oasis ont donné naissance à l'un des systèmes d'irrigation les plus ingénieux au monde ? Nous entendons malheureusement trop peu parler de cette Algérie pour en connaître ses richesses matérielles et immatérielles. Les échos nous arrivant nourrissent inlassablement une vision inexacte et faussée du pays. Constamment montrée du doigt pour son retard en matière de tourisme, l’Algérie n’a certes pas suivi la frénésie touristique qui s’est emparée du Maroc et de la Tunisie, mais elle invite aussi audacieusement à découvrir ses secrets, son histoire, son passé tumultueux et ses richesses authentiques. \n Certains diront qu’il n’existe pas de tourisme en Algérie, mais c’est faux. Les infrastructures hôtelières sont en constante amélioration et les progrès sont nets. Sans oublier les infrastructures routières qui se sont considérablement développées ces dernières années avec, par exemple, la mise en place d’une autoroute Est-Ouest permettant de relier Alger à Oran en seulement 4 heures...Pour ce qui est de la sécurité, l’Algérie est un pays globalement sûr, en dehors de la région du Djudjura en Kabylie, ou encore le parc du Tassili n’Ajjer et le désert aux portes de Tamanrasset qui restent tous deux fermés aux touristes. Mais, quoi qu’il en soit, les autorités et les locaux savent où il ne faut pas se rendre et il est important de les écouter et de ne pas jouer au téméraire si on vous dit que c’est risqué de faire tel ou tel déplacement. \n\n Mais, en raison de ces problèmes de sécurité rarissimes, l’Algérie doit-elle pour autant être ignorée ? Les plus beaux voyages ne sont-ils pas ceux de la découverte d’un pays sans maquillage, ni artifice ? L’Algérie dévoile avec sincérité et sans pudeur ses mille et un contrastes. Parfois repoussante et lunatique, mais éternellement accueillante et envoûtante, elle invite à des explorations plus complexes et plus intimes. Et une fois qu’on a découvert l’Algérie, on a qu’une seule envie : la redécouvrir encore et encore et y revenir, malgré tous les préjugés sur ce magnifique pays. \n Et puis un jour, on se surprend alors à répéter en coeur avec les Algériens « 1, 2, 3, viva l’Algérie » parce que c’est un pays sublime et incroyablement attachant.",
+            text: "Qui devinerait qu'en Algérie des sites antiques romains d'une extrême beauté se dévoilent aux visiteurs, ici en Kabylie, là dans les Aurès ou l'Algérois ? Qui soupçonnerait que de magnifiques oasis ont donné naissance à l'un des systèmes d'irrigation les plus ingénieux au monde ? Nous entendons malheureusement trop peu parler de cette Algérie pour en connaître ses richesses matérielles et immatérielles. Les échos nous arrivant nourrissent inlassablement une vision inexacte et faussée du pays. Constamment montrée du doigt pour son retard en matière de tourisme, l’Algérie n’a certes pas suivi la frénésie touristique qui s’est emparée du Maroc et de la Tunisie, mais elle invite aussi audacieusement à découvrir ses secrets, son histoire, son passé tumultueux et ses richesses authentiques. \n Certains diront qu’il n’existe pas de tourisme en Algérie, mais c’est faux. Les infrastructures hôtelières sont en constante amélioration et les progrès sont nets. Sans oublier les infrastructures routières qui se sont considérablement développées ces dernières années avec, par exemple, la mise en place d’une autoroute Est-Ouest permettant de relier Alger à Oran en seulement 4 heures... Pour ce qui est de la sécurité, l’Algérie est un pays globalement sûr, en dehors de la région du Djudjura en Kabylie, ou encore le parc du Tassili n’Ajjer et le désert aux portes de Tamanrasset qui restent tous deux fermés aux touristes. Mais, quoi qu’il en soit, les autorités et les locaux savent où il ne faut pas se rendre et il est important de les écouter et de ne pas jouer au téméraire si on vous dit que c’est risqué de faire tel ou tel déplacement. \n\n Mais, en raison de ces problèmes de sécurité rarissimes, l’Algérie doit-elle pour autant être ignorée ? Les plus beaux voyages ne sont-ils pas ceux de la découverte d’un pays sans maquillage, ni artifice ? L’Algérie dévoile avec sincérité et sans pudeur ses mille et un contrastes. Parfois repoussante et lunatique, mais éternellement accueillante et envoûtante, elle invite à des explorations plus complexes et plus intimes. Et une fois qu’on a découvert l’Algérie, on a qu’une seule envie : la redécouvrir encore et encore et y revenir, malgré tous les préjugés sur ce magnifique pays. \n Et puis un jour, on se surprend alors à répéter en coeur avec les Algériens « 1, 2, 3, viva l’Algérie » parce que c’est un pays sublime et incroyablement attachant.",
             positivePoints: [
                 "La chaleur de l'accueil des locaux, qui sont connus pour être accueillants et hospitaliers envers les visiteurs.",
                 "La diversité des paysages, avec des montagnes, des déserts, des oasis, des plages et des villes historiques.",
