@@ -1,6 +1,5 @@
 section {
     padding: 0 21px 61px 19px;
-    border: 1px solid rgb(227, 85, 109);
 }
 
 
@@ -9,4 +8,17 @@ img {
     width: 100%;
     margin-bottom: 19px;
     
+}
+
+@media (min-width: 768px) {
+    
+    section {
+        margin: 115px 100px 0 252px;
+    }
+
+    img {
+        height: 320px;
+        width: 320px;
+        margin-right: 35px;
+    }
 }
