@@ -16,7 +16,7 @@ CSS
 
 ## Compatibilité
 
-:white_check_mark: Approche mobile-first <br>
-:white_check_mark: Responsive sur mobile, tablette et desktop <br>
-:white_check_mark: L'application doit faire appel à l'API https://www.visualcrossing.com/
+- Approche mobile-first <br>
+- Responsive sur mobile, tablette et desktop <br>
+- L'application fait appel à l'API https://www.visualcrossing.com/
 
