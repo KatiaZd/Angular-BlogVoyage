@@ -14,3 +14,14 @@ p {
     white-space: pre-wrap;
     
 }
+
+@media (min-width: 768px) {
+    
+    section {
+        margin: 115px 180px 0 252px;
+    }
+
+    p {
+        padding: 69px 56px;
+    }
+}
