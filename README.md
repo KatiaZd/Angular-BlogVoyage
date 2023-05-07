@@ -7,35 +7,32 @@ Une photographe et globe trotteuse souhaite un blog pour pouvoir partager ses ph
 ### Contenu des pages :arrow_down:
 Header :
 
-- Sur mobile : fixé en haut de l'écran, <br>
-- Sur desktop : fixé à 180° à gauche de l'écran. <br>
+- Sur mobile : fixé en haut de l'écran,
+- Sur desktop : fixé à 180° à gauche de l'écran. 
 Dans les deux cas, la largeur de la zone où se trouve la température doit être adapté à la taille du nom de la ville.
 
 
 #### Home page : 
 
-- Le dernier article doit être affiché en haut de la page afin d'être mise en valeur, <br>
+- Le dernier article doit être affiché en haut de la page afin d'être mise en valeur,
 - En cliquant sur l'image, l'utilisateur est redirigé vers la page article. 
 
 
 #### Page article : 
 
-Un bouton retour est visible pour pouvoir revenir en arrière, sur la page home. <br>
-- Sur mobile : fixé en haut à gauche, <br>
-- Sur desktop : fixé en bas à droite. <br><br>
-
+Un bouton retour est visible pour pouvoir revenir en arrière, sur la page home. 
+- Sur mobile : fixé en haut à gauche, 
+- Sur desktop : fixé en bas à droite. 
 
 Sections : Le voyage/Résumé
 
-- Ces deux sections utilisent un même composant qui prennent un titre et un contenu texte. <br>
-Le conteneur s'ajuste à la taille du texte. <br><br>
-
+- Ces deux sections utilisent un même composant qui prennent un titre et un contenu texte. 
+Le conteneur s'ajuste à la taille du texte. 
 
 Section : Notre avis
 
-- Cette section est composé de trois listes qui viennent des données de l'article : Les plus, les moins, notre conseil. <br>
-Si l'une de ses listes est vide dans les données, alors que le titre ne s'affiche pas. <br><br>
-
+- Cette section est composé de trois listes qui viennent des données de l'article : Les plus, les moins, notre conseil.
+Si l'une de ses listes est vide dans les données, alors que le titre ne s'affiche pas.
 
 Section : Pour voyager un peu plus
 
