@@ -25,23 +25,23 @@ Un bouton retour est visible pour pouvoir revenir en arrière, sur la page home.
 - Sur desktop : fixé en bas à droite. <br><br>
 
 
-Sections : Le voyage/Résumé <br>
+Sections : Le voyage/Résumé
 
 - Ces deux sections utilisent un même composant qui prennent un titre et un contenu texte. <br>
 Le conteneur s'ajuste à la taille du texte. <br><br>
 
 
-Section : Notre avis <br>
+Section : Notre avis
 
 - Cette section est composé de trois listes qui viennent des données de l'article : Les plus, les moins, notre conseil. <br>
 Si l'une de ses listes est vide dans les données, alors que le titre ne s'affiche pas. <br><br>
 
 
-Section : Pour voyager un peu plus <br>
+Section : Pour voyager un peu plus
 
-Cette section comporte les autres images du voyage. <br>
+Cette section comporte les autres images du voyage. 
 - Sur mobile : elles s'affichent en colonne, par 1,
-- Sur desktop : elles s'affichent en ligne, par 3. <br><br>
+- Sur desktop : elles s'affichent en ligne, par 3. 
 
 
 ## Modalités d'évalution :
