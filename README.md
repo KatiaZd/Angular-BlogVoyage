@@ -9,7 +9,7 @@ Header : <br>
 
 - Sur mobile : fixé en haut de l'écran, <br>
 - Sur desktop : fixé à 180° à gauche de l'écran. <br>
-Dans les deux cas, la largeur de la zone où se trouve la température doit être adapté à la taille du nom de la ville. <br><br>
+Dans les deux cas, la largeur de la zone où se trouve la température doit être adapté à la taille du nom de la ville.
 
 
 #### Home page : <br>
