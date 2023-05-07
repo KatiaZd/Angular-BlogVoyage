@@ -12,13 +12,13 @@ Header : <br>
 Dans les deux cas, la largeur de la zone où se trouve la température doit être adapté à la taille du nom de la ville. <br><br>
 
 
-Home page : <br>
+#### Home page : <br>
 
 - Le dernier article doit être affiché en haut de la page afin d'être mise en valeur <br>
 - En cliquant sur l'image, l'utilisateur est redirigé vers la page article <br><br>
 
 
-Page article : <br>
+#### Page article : <br>
 
 Un bouton retour est visible pour pouvoir revenir en arrière, sur la page home <br>
 - Sur mobile : fixé en haut à gauche <br>
