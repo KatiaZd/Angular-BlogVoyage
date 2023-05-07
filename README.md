@@ -52,9 +52,9 @@ Le travail est séparer et évalué sous 3 couches de difficultés :
 :white_check_mark: Niveau 3 : Requêter une api pour afficher la température de façon dynamique
 
 ## Technologies
-Framework Angular <br>
-TypeScript <br>
-CSS
+- Framework Angular <br>
+- TypeScript <br>
+- CSS
 
 ## Compatibilité
 
