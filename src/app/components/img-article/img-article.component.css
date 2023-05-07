@@ -19,3 +19,13 @@ img {
     width: 100%;
 }
 
+@media (min-width: 768px) {
+    
+    section {
+        margin: 69px 180px 0 252px;
+    }
+
+    img {
+        height: 686px;
+    }
+}
