@@ -80,7 +80,7 @@ export const ARTICLES: IArticles[] = [
         {
             id: 3,
             country: 'Algérie',
-            city: 'Alger',
+            city: 'Biskra',
             startDate: new Date('2022-04-14'),
             endDate: new Date('2022-05-17'),
             mainImage: 'assets/img/algerie/biskra.jpg',
